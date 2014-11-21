@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.HomeScreen"
+            android:label="@string/title_activity_home_screen" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.Cinema1"
+            android:label="@string/title_activity_cinema1" >
+        </activity>
     </application>
 
 </manifest>
