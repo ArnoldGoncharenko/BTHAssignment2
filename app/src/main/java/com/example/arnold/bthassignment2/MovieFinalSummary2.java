@@ -3,37 +3,30 @@ package com.example.arnold.bthassignment2;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ImageButton;
+import android.widget.TextView;
 
 
-public class  HomeScreen extends Activity {
+public class MovieFinalSummary2 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+        setContentView(R.layout.activity_movie_final_summary2);
 
-        ImageButton ib = (ImageButton)findViewById(R.id.imageButton);
-        ib.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                Intent intent = new Intent(getApplicationContext(), Cinema.class);
-                startActivity(intent);
-            }
-        });
+        Intent intent = getIntent();
+        String message = intent.getStringExtra("time");
+
+        TextView text = (TextView)findViewById(R.id.TimeDisplayed);
+        text.setText("Time: " + message);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_home_screen, menu);
+        getMenuInflater().inflate(R.menu.menu_movie_final_summary2, menu);
         return true;
     }
 

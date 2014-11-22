@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.arnold.bthassignment2.MainActivity"
-            android:label="@string/app_name" >
+            android:label="Location - choose an option" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,11 +18,47 @@
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.HomeScreen"
-            android:label="@string/title_activity_home_screen" >
+            android:label="Home - choose a venue" >
         </activity>
         <activity
-            android:name="com.example.arnold.bthassignment2.Cinema1"
-            android:label="@string/title_activity_cinema1" >
+            android:name="com.example.arnold.bthassignment2.Cinema"
+            android:label="Cinema - choose a movie" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.CinemaSummary"
+            android:label="Cinema - movie summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.CinemaSummary2"
+            android:label="Cinema - movie summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.MovieFinalSummary"
+            android:label="Cinema - final summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.MovieFinalSummary2"
+            android:label="Cinema - final summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.Theater"
+            android:label="Theater - choose a show" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.TheaterFinalSummary"
+            android:label="Theater - final summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.TheaterFinalSummary2"
+            android:label="Theater - final summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.TheaterSummary"
+            android:label="Theater - show summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.TheaterSummary2"
+            android:label="Theater - show summary" >
         </activity>
     </application>
 

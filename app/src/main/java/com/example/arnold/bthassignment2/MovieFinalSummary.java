@@ -5,25 +5,28 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.app.ListFragment;
+import android.widget.TextView;
 
 
-public class Cinema1 extends Activity {
+public class MovieFinalSummary extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cinema1);
+        setContentView(R.layout.activity_movie_final_summary);
+
+        Intent intent = getIntent();
+        String message = intent.getStringExtra("time");
+
+        TextView text = (TextView)findViewById(R.id.TimeDisplayed);
+        text.setText("Time: " + message);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_cinema1, menu);
+        getMenuInflater().inflate(R.menu.menu_movie_final_summary, menu);
         return true;
     }
 
