@@ -60,9 +60,17 @@ public class TheaterSummary extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void movieTime1(View view)
+    public void theaterTime1(View view)
     {
         Intent intent = new Intent(this, TheaterFinalSummary.class);
+        intent.putExtra("time", "5:30");
+        startActivity(intent);
+    }
+
+    public void theaterTime2(View view)
+    {
+        Intent intent = new Intent(this, TheaterFinalSummary.class);
+        intent.putExtra("time", "8:30");
         startActivity(intent);
     }
 }

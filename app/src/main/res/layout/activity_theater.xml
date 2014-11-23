@@ -83,11 +83,12 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buy ticket"
+            android:text="Buy Ticket"
             android:id="@+id/button3"
             android:layout_alignBottom="@+id/imageView"
             android:layout_alignStart="@+id/textView13"
-            android:onClick="MovieSummary1" />
+            android:onClick="MovieSummary1"
+            android:textAllCaps="false"/>
 
     </RelativeLayout>
 
@@ -146,11 +147,12 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buy ticket"
+            android:text="Buy Ticket"
             android:id="@+id/button3_a"
             android:layout_alignBottom="@+id/imageView_a"
             android:layout_alignLeft="@+id/textView12_a"
-            android:onClick="MovieSummary2" />
+            android:onClick="MovieSummary2"
+            android:textAllCaps="false"/>
 
         <TextView
             android:layout_width="wrap_content"

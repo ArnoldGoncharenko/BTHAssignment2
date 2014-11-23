@@ -63,6 +63,14 @@ public class ConcertSummary2 extends Activity {
     public void concertTime1(View view)
     {
         Intent intent = new Intent(this, ConcertFinalSummary2.class);
+        intent.putExtra("time", "5:30");
+        startActivity(intent);
+    }
+
+    public void concertTime2(View view)
+    {
+        Intent intent = new Intent(this, ConcertFinalSummary2.class);
+        intent.putExtra("time", "7:00");
         startActivity(intent);
     }
 }

@@ -64,4 +64,18 @@ public class TheaterSummary2 extends Activity {
         Intent intent = new Intent(this, TheaterFinalSummary2.class);
         startActivity(intent);
     }
+
+    public void theaterTime1(View view)
+    {
+        Intent intent = new Intent(this, TheaterFinalSummary2.class);
+        intent.putExtra("time", "5:30");
+        startActivity(intent);
+    }
+
+    public void theaterTime2(View view)
+    {
+        Intent intent = new Intent(this, TheaterFinalSummary2.class);
+        intent.putExtra("time", "7:30");
+        startActivity(intent);
+    }
 }

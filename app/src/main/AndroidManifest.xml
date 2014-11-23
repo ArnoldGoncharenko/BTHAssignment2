@@ -26,19 +26,19 @@
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.CinemaSummary"
-            android:label="Cinema - movie summary" >
+            android:label="Cinema - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.CinemaSummary2"
-            android:label="Cinema - movie summary" >
+            android:label="Cinema - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.MovieFinalSummary"
-            android:label="Cinema - final summary" >
+            android:label="Cinema - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.MovieFinalSummary2"
-            android:label="Cinema - final summary" >
+            android:label="Cinema - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.Theater"
@@ -46,19 +46,19 @@
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.TheaterFinalSummary"
-            android:label="Theater - final summary" >
+            android:label="Theater - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.TheaterFinalSummary2"
-            android:label="Theater - final summary" >
+            android:label="Theater - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.TheaterSummary"
-            android:label="Theater - show summary" >
+            android:label="Theater - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.TheaterSummary2"
-            android:label="Theater - show summary" >
+            android:label="Theater - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.Concert"
@@ -66,27 +66,27 @@
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.ConcertSummary"
-            android:label="Concert - show summary" >
+            android:label="Concert - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.ConcertSummary2"
-            android:label="Concert - show summary" >
+            android:label="Concert - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.ConcertFinalSummary"
-            android:label="Concert - final summary" >
+            android:label="Concert - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.ConcertFinalSummary2"
-            android:label="Concert - final summary" >
+            android:label="Concert - summary" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.CreditCard"
-            android:label="Credit card - enter info" >
+            android:label="Credit card information" >
         </activity>
         <activity
             android:name="com.example.arnold.bthassignment2.OrderSummary"
-            android:label="Final summary" >
+            android:label="Purchase successful" >
         </activity>
     </application>
 

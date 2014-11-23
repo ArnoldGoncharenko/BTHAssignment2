@@ -19,14 +19,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="7:30"
+        android:text="7:30PM"
         android:id="@+id/button5"
-        android:layout_below="@+id/textView18"
-        android:layout_alignRight="@+id/textView18"
-        android:layout_alignEnd="@+id/textView18"
+        android:onClick="concertTime2"
+        android:layout_below="@+id/button13"
         android:layout_alignLeft="@+id/textView18"
         android:layout_alignStart="@+id/textView18"
-        android:onClick="concertTime1" />
+        android:layout_alignRight="@+id/textView18"
+        android:layout_alignEnd="@+id/textView18" />
 
     <RelativeLayout
         android:layout_width="200dp"
@@ -84,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="PG - All ages"
+            android:text="PG-All ages"
             android:id="@+id/textView37"
             android:layout_centerVertical="true"
             android:layout_alignLeft="@+id/textView36"
@@ -102,6 +102,30 @@
             android:layout_alignStart="@+id/textView37"
             android:layout_marginBottom="63dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Price: 10$"
+            android:id="@+id/textView62"
+            android:textSize="20dp"
+            android:layout_toEndOf="@+id/imageView6"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_alignLeft="@+id/textView38"
+            android:layout_alignStart="@+id/textView38" />
+
     </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:30PM"
+        android:id="@+id/button13"
+        android:onClick="concertTime1"
+        android:layout_below="@+id/textView18"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignRight="@+id/textView18"
+        android:layout_alignEnd="@+id/textView18" />
 
 </RelativeLayout>

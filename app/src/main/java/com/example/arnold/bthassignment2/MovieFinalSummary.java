@@ -22,7 +22,7 @@ public class MovieFinalSummary extends Activity {
         String message = intent.getStringExtra("time");
 
         TextView text = (TextView)findViewById(R.id.TimeDisplayed);
-        text.setText("Time: " + message);
+        text.setText("Time: " + message + "PM");
     }
 
 

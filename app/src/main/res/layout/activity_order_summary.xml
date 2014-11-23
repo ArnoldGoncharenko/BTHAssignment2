@@ -10,26 +10,47 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Thank you for your purchase! The details have been sent to your E-mail!"
+        android:text="Thank you for your purchase!"
         android:id="@+id/textView46"
-        android:textSize="40dp"
-        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        android:layout_toEndOf="@+id/imageView8"
+        android:layout_alignBottom="@+id/imageView8"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="55dp" />
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
         android:id="@+id/button9"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:textAllCaps="false"
-        android:layout_below="@+id/textView46"
-        android:layout_marginTop="51dp"
-        android:layout_alignRight="@+id/textView46"
-        android:layout_alignEnd="@+id/textView46"
+        android:onClick="goHome"
+        android:layout_marginBottom="112dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:background="@drawable/checkmark"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="goHome" />
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Your details have been sent to your E-mail"
+        android:id="@+id/textView52"
+        android:textSize="30dp"
+        android:layout_toEndOf="@+id/imageView8"
+        android:layout_marginBottom="62dp"
+        android:layout_above="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

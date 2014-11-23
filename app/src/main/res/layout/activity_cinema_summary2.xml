@@ -19,7 +19,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12:30"
+        android:text="12:30PM"
         android:id="@+id/button5"
         android:layout_below="@+id/textView18"
         android:layout_alignRight="@+id/textView18"
@@ -31,7 +31,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3:40"
+        android:text="3:40PM"
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         android:layout_alignRight="@+id/button5"
@@ -43,7 +43,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="7:10"
+        android:text="7:10PM"
         android:id="@+id/button7"
         android:layout_below="@+id/button6"
         android:layout_alignRight="@+id/button6"
@@ -123,6 +123,18 @@
             android:id="@+id/textView23"
             android:layout_toEndOf="@+id/imageView3"
             android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView22"
+            android:layout_alignStart="@+id/textView22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Price: 10$"
+            android:id="@+id/textView55"
+            android:textSize="20dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_alignBottom="@+id/imageView3"
             android:layout_alignLeft="@+id/textView22"
             android:layout_alignStart="@+id/textView22" />
     </RelativeLayout>

@@ -90,12 +90,24 @@
             android:layout_alignLeft="@+id/textView28"
             android:layout_alignStart="@+id/textView28"
             android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Price: 10$"
+            android:id="@+id/textView56"
+            android:textSize="20dp"
+            android:layout_toEndOf="@+id/TimeDisplayed"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_alignLeft="@+id/TimeDisplayed"
+            android:layout_alignStart="@+id/TimeDisplayed" />
     </RelativeLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Continue with purchase?"
+        android:text="Checkout"
         android:id="@+id/button4"
         android:layout_below="@+id/relativeLayout5"
         android:layout_centerHorizontal="true"

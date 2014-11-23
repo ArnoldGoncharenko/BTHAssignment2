@@ -19,14 +19,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="8:30"
+        android:text="8:30PM"
         android:id="@+id/button5"
-        android:layout_below="@+id/textView18"
-        android:layout_alignRight="@+id/textView18"
-        android:layout_alignEnd="@+id/textView18"
+        android:onClick="theaterTime2"
+        android:layout_below="@+id/button12"
         android:layout_alignLeft="@+id/textView18"
         android:layout_alignStart="@+id/textView18"
-        android:onClick="movieTime1" />
+        android:layout_alignRight="@+id/textView18"
+        android:layout_alignEnd="@+id/textView18" />
 
     <RelativeLayout
         android:layout_width="200dp"
@@ -101,6 +101,30 @@
             android:layout_alignStart="@+id/textView37"
             android:layout_marginBottom="63dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Price: 10$"
+            android:id="@+id/textView68"
+            android:textSize="20dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_alignLeft="@+id/textView32"
+            android:layout_alignStart="@+id/textView32" />
+
     </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:30PM"
+        android:id="@+id/button12"
+        android:onClick="theaterTime1"
+        android:layout_below="@+id/textView18"
+        android:layout_alignRight="@+id/textView18"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
 
 </RelativeLayout>
