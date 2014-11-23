@@ -15,5 +15,12 @@
     <string name="title_activity_theater_final_summary2">TheaterFinalSummary2</string>
     <string name="title_activity_theater_summary">TheaterSummary</string>
     <string name="title_activity_theater_summary2">TheaterSummary2</string>
+    <string name="title_activity_concert">Concert</string>
+    <string name="title_activity_concert_summary">ConcertSummary</string>
+    <string name="title_activity_concert_summary2">ConcertSummary2</string>
+    <string name="title_activity_concert_final_summary">ConcertFinalSummary</string>
+    <string name="title_activity_concert_final_summary2">ConcertFinalSummary2</string>
+    <string name="title_activity_credit_card">CreditCard</string>
+    <string name="title_activity_order_summary">OrderSummary</string>
 
 </resources>

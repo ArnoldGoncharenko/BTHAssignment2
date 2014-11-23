@@ -60,6 +60,34 @@
             android:name="com.example.arnold.bthassignment2.TheaterSummary2"
             android:label="Theater - show summary" >
         </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.Concert"
+            android:label="@string/title_activity_concert" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.ConcertSummary"
+            android:label="Concert - show summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.ConcertSummary2"
+            android:label="Concert - show summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.ConcertFinalSummary"
+            android:label="Concert - final summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.ConcertFinalSummary2"
+            android:label="Concert - final summary" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.CreditCard"
+            android:label="Credit card - enter info" >
+        </activity>
+        <activity
+            android:name="com.example.arnold.bthassignment2.OrderSummary"
+            android:label="Final summary" >
+        </activity>
     </application>
 
 </manifest>

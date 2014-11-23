@@ -111,7 +111,7 @@
             android:text="Cineplex Cinemas"
             android:id="@+id/textView22"
             android:layout_toEndOf="@+id/imageView"
-            android:layout_marginBottom="63dp"
+            android:layout_marginBottom="59dp"
             android:layout_alignBottom="@+id/imageView3"
             android:layout_alignLeft="@+id/textView21" />
 

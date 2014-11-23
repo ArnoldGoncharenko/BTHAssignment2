@@ -95,20 +95,12 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Saxe theater"
-            android:id="@+id/textView38"
-            android:layout_toEndOf="@+id/imageView6"
-            android:layout_above="@+id/button10"
-            android:layout_alignStart="@+id/button10"
-            android:layout_marginBottom="15dp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Buy ticket"
-            android:id="@+id/button10"
-            android:layout_alignBottom="@+id/imageView6"
+            android:id="@+id/textView32"
+            android:layout_below="@+id/textView37"
+            android:layout_alignLeft="@+id/textView37"
             android:layout_alignStart="@+id/textView37"
-            android:onClick="MovieSummary1" />
+            android:layout_marginBottom="63dp" />
+
     </RelativeLayout>
 
 </RelativeLayout>

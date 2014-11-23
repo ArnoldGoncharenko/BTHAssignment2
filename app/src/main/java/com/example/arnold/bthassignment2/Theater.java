@@ -1,9 +1,13 @@
 package com.example.arnold.bthassignment2;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class Theater extends Activity {
@@ -30,10 +34,41 @@ public class Theater extends Activity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.home) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("All progress will be lost! Continue?").setTitle("Progress loss warning");
+            builder.setPositiveButton("Yes", new DialogInterface.OnClickListener()
+            {
+                public void onClick(DialogInterface dialog, int id)
+                {
+                    Intent intent = new Intent(getApplicationContext(), HomeScreen.class);
+                    startActivity(intent);
+                }
+            });
+            builder.setNegativeButton("No", new DialogInterface.OnClickListener()
+            {
+                public void onClick(DialogInterface dialog, int id)
+                {
+                    return;
+                }
+            });
+
+            AlertDialog dialog = builder.create();
+            dialog.show();
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void MovieSummary1(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(), TheaterSummary.class);
+        startActivity(intent);
+    }
+
+    public void MovieSummary2(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(), TheaterSummary2.class);
+        startActivity(intent);
     }
 }

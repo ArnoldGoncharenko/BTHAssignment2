@@ -10,18 +10,19 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class TheaterSummary2 extends Activity {
+public class ConcertFinalSummary2 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_theater_summary2);
+        setContentView(R.layout.activity_concert_final_summary2);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_theater_summary2, menu);
+        getMenuInflater().inflate(R.menu.menu_concert_final_summary2, menu);
         return true;
     }
 
@@ -59,9 +60,9 @@ public class TheaterSummary2 extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void movieTime1(View view)
+    public void goToCreditCard(View view)
     {
-        Intent intent = new Intent(this, TheaterFinalSummary2.class);
+        Intent intent = new Intent(this, CreditCard.class);
         startActivity(intent);
     }
 }

@@ -54,6 +54,7 @@
         android:text="Search"
         android:id="@+id/button2"
         android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="goHomeScreen" />
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.arnold.bthassignment2.HomeScreen">
+    tools:context="com.example.arnold.bthassignment2.OrderSummary">
 </menu>
